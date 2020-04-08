@@ -28,7 +28,7 @@ public class AesUtils {
      * 加密
      *
      * @param cleartext
-     * @return
+     * @return String 加密后的数据
      */
     public static String encrypt(String cleartext) {
         //加密方式： AES128(CBC/PKCS5Padding) + Base64, 私钥：1111222233334444

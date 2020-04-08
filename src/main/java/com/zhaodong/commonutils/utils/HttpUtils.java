@@ -9,7 +9,6 @@ import java.io.IOException;
 
 /**
  * @author zhaodong
- * @date 2019/11/28
  */
 @Component
 @ConditionalOnClass(OkHttpClient.class)
